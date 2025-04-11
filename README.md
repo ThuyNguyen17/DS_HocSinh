@@ -1,15 +1,47 @@
-#Bai Tap Danh Sach Hoc Sinh 
-## Define a Student class with the following properties:
-## Id (int) - Student ID number.
-## Name (string) - Student name.
-## Age (int) - Student age.
-## In the Main section, create a List containing Student objects and fill in the information of at least 5 students in this list.
-## Using LINQ, perform the following tasks and print the results to the screen:
-### a. Print the list of all students.
-### b. Find and print out a list of students between the ages of 15 and 18.
-### c. Find and print out students whose names start with the letter "A".
-### d. Calculate the total age of all students in the list.
-### e. Find and print out the oldest student.
-### f. Arrange the student list in ascending order of age and print out the list after arranging.
+# Student List LINQ Demo
 
+This is a simple C# console application that demonstrates the use of **LINQ** with a list of `Student` objects.
 
+## Features
+
+- Define a `Student` class with the following properties:
+  - `Id` (int): Student ID
+  - `Name` (string): Student name
+  - `Age` (int): Student age
+
+- In `Main`, create and populate a list of at least 5 students.
+
+## LINQ Queries Demonstrated
+
+This application includes the following LINQ queries:
+
+- ✅ Print all students.
+- 🔍 Find students aged between 15 and 18.
+- 🔠 Find students whose names start with "A".
+- ➕ Calculate the total age of all students.
+- 🧓 Identify the oldest student.
+- 📈 Sort students by age in ascending order.
+
+## Example Output
+
+```bash
+All Students:
+1. Alice - Age: 17
+2. Bob - Age: 16
+...
+
+Students aged 15 to 18:
+- Alice
+- Bob
+
+Students whose names start with 'A':
+- Alice
+
+Total age of all students: 86
+
+Oldest student: Charlie (Age: 19)
+
+Students sorted by age:
+1. Bob - 16
+2. Alice - 17
+...
